@@ -866,7 +866,7 @@ a {
 
 @media (min-height: 800px) {
   .div2 {
-    min-height: 65vh;
+    min-height: 70vh;
     margin-top: -5px;
   }
 }
