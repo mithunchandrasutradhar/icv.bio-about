@@ -649,14 +649,14 @@ a {
   }
 
   .div2 {
-    max-width: 90% !important;
+    max-width: 96% !important;
     margin-left: auto !important;
     margin-right: auto !important;
     padding: 10px 20px !important;
   }
 
   .div3 {
-    width: 90% !important;
+    width: 96% !important;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -775,7 +775,7 @@ a {
     box-shadow: var(--box-shadow);
     /* min-height: 470px; */
     min-width: 324px;
-    width: 90%;
+    width: 96%;
 
   }
 
