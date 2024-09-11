@@ -773,7 +773,7 @@ a {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow: var(--box-shadow);
-    min-height: 470px;
+    /* min-height: 470px; */
     min-width: 324px;
     width: 90%;
     margin-bottom: 100px;
@@ -851,23 +851,6 @@ a {
   display: none;
 }
 
-/* @media (min-height: 600px) {
-  .div2 {
-    min-height: 70vh;
-  }
-}
-
-@media (min-height: 700px) {
-  .div2 {
-    min-height: 70vh;
-  }
-}
-
-@media (min-height: 800px) {
-  .div2 {
-    min-height: 70vh;
-  }
-} */
 
 @media (min-width: 769px) {
   .hero .container {
