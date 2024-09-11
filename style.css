@@ -851,7 +851,7 @@ a {
   display: none;
 }
 
-@media (min-height: 600px) {
+/* @media (min-height: 600px) {
   .div2 {
     min-height: 70vh;
   }
@@ -867,7 +867,7 @@ a {
   .div2 {
     min-height: 70vh;
   }
-}
+} */
 
 @media (min-width: 769px) {
   .hero .container {
