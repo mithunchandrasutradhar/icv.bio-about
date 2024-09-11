@@ -615,7 +615,6 @@ a {
   }
 
   .parent {
-    display: flex !important;
     flex-direction: column-reverse !important;
     min-height: 100vh;
     justify-content: space-between;
@@ -867,7 +866,6 @@ a {
 @media (min-height: 800px) {
   .div2 {
     min-height: 70vh;
-    margin-top: -5px;
   }
 }
 
