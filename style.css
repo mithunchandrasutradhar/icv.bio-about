@@ -854,13 +854,13 @@ a {
 
 @media (min-height: 600px) {
   .div2 {
-    min-height: 100%;
+    min-height: 70vh;
   }
 }
 
 @media (min-height: 700px) {
   .div2 {
-    min-height: 300px;
+    min-height: 70vh;
   }
 }
 
