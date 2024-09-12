@@ -587,6 +587,10 @@ a {
   display: none;
 }
 
+.action-button {
+  display: none;
+}
+
 @media (max-width: 769px) {
 
   .gallery_pics .pics_cards img,
@@ -847,6 +851,105 @@ a {
 
   .vector.active p {
     margin-top: 0px !important;
+  }
+
+  .button--circle {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: #1a73e8;
+    width: 56px;
+    height: 56px;
+    margin: 0.5rem;
+    border-radius: 50%;
+    line-height: 56px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+  }
+
+  .button--circle span {
+    margin: auto;
+  }
+
+  .z-inbox-action-button {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+  }
+
+  .action-button {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    margin: 0.5rem;
+    z-index: 1;
+    display: block;
+  }
+
+  .action-button ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .action-button ul .button--circle {
+    margin: 0;
+  }
+
+  .action-button ul li {
+    position: relative;
+    margin: 0;
+  }
+
+  .action-button ul ul {
+    position: absolute;
+    bottom: 9999px;
+  }
+
+  .action-button ul ul li {
+    display: flex;
+    transform: scale(0);
+    padding-bottom: 0.5rem;
+    opacity: 0;
+    transition: transform linear 0.05s, opacity linear 0.05s;
+  }
+
+  .action-button ul ul li:nth-of-type(1) {
+    transition-delay: 0.05s;
+  }
+
+  .action-button ul ul li>p {
+    position: absolute;
+    bottom: 25%;
+    right: 120%;
+    margin: 0;
+    min-width: 100px;
+    border-radius: 2px;
+    padding: 10px 6px;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 300;
+    background: #1a73e8;
+    color: #fff;
+    transition: opacity linear 0.1s;
+  }
+
+  .action-button ul li:hover ul {
+    position: absolute;
+    bottom: 56px;
+  }
+
+  .action-button ul li:hover ul li {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+
+  .action-button ul li:hover ul li a:hover+p {
+    opacity: 1;
+  }
+
+  .action-item {
+    background: #1a73e8;
   }
 }
 
