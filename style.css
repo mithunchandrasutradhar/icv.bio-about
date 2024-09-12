@@ -657,7 +657,7 @@ a {
     width: 96% !important;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   .mobile_div3 {
@@ -706,7 +706,7 @@ a {
     /* background-color: var(--dark-white); */
     grid-template-columns: 0.5fr 2fr repeat(2, 1fr) 2fr;
     /* grid-template-rows: 1fr 2.5fr 0.5fr repeat(2, 1fr); */
-    grid-template-rows: 0fr 0fr 0.5fr repeat(1, 0fr);
+    grid-template-rows: 0fr 0fr 0.135fr repeat(1, 0fr);
     /* grid-template-columns: repeat(5, 1fr);
         grid-template-rows: 1.5fr 2.5fr repeat(3, 1fr); */
     grid-column-gap: 0px;
@@ -761,17 +761,19 @@ a {
   .social-icons {
     gap: 5px;
     position: inherit !important;
+    margin-bottom: 0;
+    min-height: 21vh;
   }
 
   .div2 {
     grid-area: 2 / 1 / 3 / 6;
     background-color: var(--white);
     padding: 10px 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow: var(--box-shadow);
-    /* min-height: 470px; */
+    /* min-height: 56vh; */
     min-width: 324px;
     width: 96%;
 
