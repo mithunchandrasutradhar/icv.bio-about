@@ -878,8 +878,8 @@ a {
 
   .action-button {
     position: fixed;
-    right: 5%;
-    bottom: 5%;
+    right: 20px;
+    bottom: 20px;
     margin: 0.5rem;
     z-index: 1;
     display: block;
