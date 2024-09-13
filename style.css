@@ -924,14 +924,16 @@ a {
     right: 120%;
     margin: 0;
     min-width: 100px;
+    text-wrap: nowrap;
     border-radius: 2px;
-    padding: 10px 6px;
+    padding: 10px;
     line-height: 1.2;
     text-align: center;
     font-weight: 300;
     background: #1a73e8;
     color: #fff;
     transition: opacity linear 0.1s;
+
   }
 
   .action-button ul li:hover ul {
