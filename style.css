@@ -64,7 +64,20 @@
   z-index: 999;
 }
 
-.btn-custom {
+.custom-nav {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 9px 30px 9px 30px;
+  color: #212121;
+  transition: all 0.3s ease;
+  border-radius: 16px;
+  line-height: 21px;
+}
+
+.btn-custom,
+.custom-nav:hover,
+.custom-nav.active {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 600;
@@ -929,10 +942,11 @@ a {
     padding: 10px;
     line-height: 1.2;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     background: #1a73e8;
     color: #fff;
     transition: opacity linear 0.1s;
+    font-family: Poppins;
 
   }
 
