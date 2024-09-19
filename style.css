@@ -387,28 +387,29 @@ a {
 }
 
 .div2 .social-icons>a {
-  margin-right: 20px;
+  margin-right: 5px;
   display: flex;
   align-items: center;
   justify-content: start;
   color: var(--black);
   text-decoration: none;
-  gap: 10px;
   min-width: 110px;
+  border-radius: 5px;
 }
 
 .div2 .social-icons a>i {
   padding: 11px !important;
   color: var(--white);
   background-color: var(--dark-blue);
-  border-radius: 50%;
-  font-size: calc(10px + 00.55vw) !important;
+  font-size: calc(30px + 00.55vw) !important;
   transition: all 0.3s ease;
-  width: 35px;
-  height: 35px;
+  width: 55px;
+  height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 3px 3px 4px;
 }
 
 .div2 .social-icons a>i:hover {
@@ -429,12 +430,73 @@ a {
   font-size: 18px;
 }
 
-.div2 .social-icons a>span {
+.div2 .social-icons a>.social-text {
   font-family: Poppins;
   font-size: 13px;
-  font-weight: 400;
   line-height: 13px;
+  box-shadow: rgba(0, 0, 0, 0.35) 3px 3px 4px;
+  border-bottom-right-radius: 5px;
 }
+
+.div2 .social-icons a>.social-text .fixed-text {
+  padding: 5px 10px;
+  text-transform: uppercase;
+  color: #fff;
+  border-top-right-radius: 5px;
+}
+
+.div2 .social-icons a>.social-text .social-name {
+  padding: 5px 10px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+a.facebook i,
+a.facebook .fixed-text {
+  background: linear-gradient(to right,
+      #00c6ff, #0072ff) !important;
+}
+
+a.linkedin i,
+a.linkedin .fixed-text {
+  background: #0077B5 !important;
+}
+
+a.twitter i,
+a.twitter .fixed-text {
+  background: linear-gradient(to right,
+      #1DA1F2, #009ffc) !important;
+}
+
+a.instagram i,
+a.instagram .fixed-text {
+  background: linear-gradient(to right,
+      #833ab4, #fd1d1d, #fcb045) !important;
+}
+
+a.youtube i,
+a.youtube .fixed-text {
+  background: linear-gradient(to right,
+      #e52d27, #b31217) !important;
+}
+
+a.pinterest i,
+a.pinterest .fixed-text {
+  background: #E60023 !important;
+}
+
+a.snapchat i,
+a.snapchat .fixed-text {
+  background: #fffc00 !important;
+  color: #000000 !important;
+}
+
+a.tiktok i,
+a.tiktok .fixed-text {
+  background: linear-gradient(to right,
+      #152331, #000000) !important;
+}
+
 
 .div3 .profile-content .profile-img {
   height: calc(40px + 5vw);
@@ -892,7 +954,7 @@ a {
   .action-button {
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 65px;
     margin: 0.5rem;
     z-index: 1;
     display: block;
