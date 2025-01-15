@@ -527,6 +527,8 @@ a.tiktok .fixed-text {
   font-family: Poppins;
   margin: 15px auto;
   width: 100%;
+  max-width: 254px;
+    overflow-x: hidden !important;
 }
 
 .div3 .profile-content .profile-intro>h2 {
